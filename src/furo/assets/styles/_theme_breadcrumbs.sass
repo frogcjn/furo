@@ -1,0 +1,17 @@
+.wy-breadcrumbs li
+  display: inline-block
+  &.wy-breadcrumbs-aside
+    float: right
+  a
+    display: inline-block
+    padding: 5px
+    &:first-child
+      padding-left: 0
+  code
+    padding: 5px
+    border: none
+    background: none
+
+@media print
+  .wy-breadcrumbs li.wy-breadcrumbs-aside
+    display: none
